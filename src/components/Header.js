@@ -51,14 +51,16 @@ const Nav = styled.div`
 
     align-items: center;
     padding: 0 36px;
-    height: 3px;
+    height: 70px;
     background-color: #090b13;
+    overflow-x:hidden;
   
 `
 
 const Logo = styled.img`
     width: 80px;
-  margin-top: 70px;
+
+
   
 `
 
@@ -66,7 +68,6 @@ const NavMenu = styled.div`
   margin-left: 25px;
     display: flex;
   flex: 1;
-  margin-top: 70px;
   a{
     display: flex;
     align-items: center;
@@ -111,7 +112,6 @@ const NavMenu = styled.div`
 `
 
 const UserImg = styled.img`
-  margin-top: 70px;
   width: 48px;
     height: 48px;
     border-radius: 50%;
